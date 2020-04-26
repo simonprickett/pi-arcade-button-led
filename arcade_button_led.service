@@ -1,0 +1,12 @@
+[Unit]
+Description=Arcade Button LED Service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi/pi-arcade-button-led
+ExecStart=/usr/bin/python pi_arcade_button_led.py
+Restart=on-failure
+User=pi
+
+[Install]
+WantedBy=multi-user.target
