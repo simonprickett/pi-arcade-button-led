@@ -39,4 +39,6 @@ GPIO.add_event_detect(BUTTON_PIN, edge = GPIO.BOTH, callback = button_press, bou
 
 # Main entry point.
 signal.signal(signal.SIGINT, shutdown)
-message = input("Press Ctrl-C to quit\n")
+
+while True:
+  time.sleep(1)
