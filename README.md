@@ -1,8 +1,9 @@
 # Raspberry Pi Arcade Button LED Demo
 
-TODO - proper README...
+Click to watch a video demonstration and code walkthrough:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/olSWVYz0dvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video Thumbnail](https://img.youtube.com/vi/olSWVYz0dvE/0.jpg)](https://www.youtube.com/watch?v=olSWVYz0dvE)
+
 
 ## Shopping List
 
