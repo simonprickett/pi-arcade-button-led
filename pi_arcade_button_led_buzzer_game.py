@@ -18,7 +18,6 @@ GPIO.setup(BUTTON_PIN, GPIO.IN, pull_up_down = GPIO.PUD_UP)
 GPIO.setup(LED_PIN, GPIO.OUT)
 GPIO.setup(BUZZER_PIN, GPIO.OUT)
 
-
 # Get a random number that the game ends at.
 def get_random_number():
   r = random.randint(1, 5)
