@@ -37,5 +37,21 @@ TODO I'll add a video demonstration and walkthrough for this...
 
 ## Running as a Service
 
-TODO I'll add information about this.
+As the Pi is stuck in a food container, and I can't access the ports etc, I can't login at the console.  I don't really want to have to SSH into the Pi to start the Python code either, so I made it start at boot by creating a systemd service file for it.
+
+This file is `arcade_button_led.service`.  You can change which of the example code files it runs by altering the line:
+
+```
+ExecStart=/usr/bin/python pi_arcade_button_led.py
+```
+
+You may also need to update this line depending on where you cloned this repo to on your Pi:
+
+```
+WorkingDirectory=/home/pi/pi-arcade-button-led
+```
+
+I wrote a blog post on how to set up a systemd service on the Pi, the blog uses a Node.js application as an example but the same steps apply to setting up this Python code.  If you'd like to learn about how to do that, you can [read about it here](https://simonprickett.dev/writing-a-systemd-service-in-node-js-pi/).
+
+
 
