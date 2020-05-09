@@ -27,6 +27,7 @@ def get_random_number():
 # Turn off the LED at shutdown and clean up.
 def shutdown(signal, frame):
   GPIO.output(LED_PIN, False)
+  GPIO.output(BUZZER_PIN, False)
   GPIO.cleanup()
   sys.exit(0)
 
