@@ -33,7 +33,9 @@ After the buzzer has been triggered, a new random number is chosen and the game 
 
 The code for this example is in `pi_arcade_button_led_buzzer_game.py`.
 
-TODO I'll add a video demonstration and walkthrough for this...
+Click to watch a video demonstration and code walkthrough:
+
+[![Video Thumbnail](https://img.youtube.com/vi/oazOvfxgGPw/0.jpg)](https://www.youtube.com/watch?v=oazOvfxgGPw)
 
 ## Running as a Service
 
